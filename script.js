@@ -1,8 +1,8 @@
-let minText = document.getElementById("numRandom1");
-let maxText = document.getElementById("numRandom2");
-let changeBtn = document.getElementById("changeBtn");
-let genBtn = document.getElementById("genBtn");
-let display = document.getElementById("displayNum");
+const minText = document.getElementById("numRandom1");
+const maxText = document.getElementById("numRandom2");
+const changeBtn = document.getElementById("changeBtn");
+const genBtn = document.getElementById("genBtn");
+const display = document.getElementById("displayNum");
 
 function generateRandom(min, max) {
     return result = Math.floor(Math.random() * (max - min + 1) ) + min;
